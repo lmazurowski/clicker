@@ -125,6 +125,9 @@
         "multiline": "always",
         "esSpecCompliant": true
       }
+    },
+    "interface-name": {
+      "severity": "off"
     }
   }
 }

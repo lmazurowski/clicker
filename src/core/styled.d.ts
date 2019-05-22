@@ -1,12 +1,14 @@
-import 'styled-components'
+import 'styled-components';
 
 declare module 'styled-components' {
   export interface DefaultTheme {
-    toolbarColor: string
-    
+    toolbarColor: string;
+
     colors: {
       main: string
-      secondary: string
-    }
+      secondary: string,
+      light: string,
+      medium: string,
+    };
   }
 }

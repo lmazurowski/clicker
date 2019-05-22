@@ -14,7 +14,7 @@ const Toolbar = styled.div`
   justify-content: center;
   width: 100%;
   background-color: ${props => props.theme.toolbarColor};
-  color: ${props => props.theme.colors.main}
+  color: ${props => props.theme.colors.light}
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
 `;
 

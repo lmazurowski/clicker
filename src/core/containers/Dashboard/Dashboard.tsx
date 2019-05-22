@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Toolbar } from '../components';
-import { defaultTheme } from '../../../core/defaultTheme';
+import { Toolbar } from '../../components';
+import { defaultTheme } from '../../defaultTheme';
 
 class Dashboard extends React.PureComponent {
   public render() {
